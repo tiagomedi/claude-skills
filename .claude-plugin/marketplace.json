@@ -1,0 +1,191 @@
+{
+  "name": "remote-skills",
+  "owner": {
+    "name": "tiagomedi"
+  },
+  "description": "Skills sueltas sin plugin oficial, servidas directamente desde sus repos de GitHub",
+  "plugins": [
+    {
+      "name": "chief-of-staff",
+      "description": "chief-of-staff desde github.com/mattpocock/skills (siempre la última versión)",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mattpocock/skills.git",
+        "path": "skills/in-progress"
+      },
+      "skills": [
+        "./chief-of-staff"
+      ],
+      "strict": false
+    },
+    {
+      "name": "bg-handoff",
+      "description": "claude-handoff desde github.com/mattpocock/skills (siempre la última versión)",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mattpocock/skills.git",
+        "path": "skills/in-progress"
+      },
+      "skills": [
+        "./claude-handoff"
+      ],
+      "strict": false
+    },
+    {
+      "name": "loop-me",
+      "description": "loop-me desde github.com/mattpocock/skills (siempre la última versión)",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mattpocock/skills.git",
+        "path": "skills/in-progress"
+      },
+      "skills": [
+        "./loop-me"
+      ],
+      "strict": false
+    },
+    {
+      "name": "setup-ts-deep-modules",
+      "description": "setup-ts-deep-modules desde github.com/mattpocock/skills (siempre la última versión)",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mattpocock/skills.git",
+        "path": "skills/in-progress"
+      },
+      "skills": [
+        "./setup-ts-deep-modules"
+      ],
+      "strict": false
+    },
+    {
+      "name": "writing-beats",
+      "description": "writing-beats desde github.com/mattpocock/skills (siempre la última versión)",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mattpocock/skills.git",
+        "path": "skills/in-progress"
+      },
+      "skills": [
+        "./writing-beats"
+      ],
+      "strict": false
+    },
+    {
+      "name": "writing-fragments",
+      "description": "writing-fragments desde github.com/mattpocock/skills (siempre la última versión)",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mattpocock/skills.git",
+        "path": "skills/in-progress"
+      },
+      "skills": [
+        "./writing-fragments"
+      ],
+      "strict": false
+    },
+    {
+      "name": "writing-shape",
+      "description": "writing-shape desde github.com/mattpocock/skills (siempre la última versión)",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mattpocock/skills.git",
+        "path": "skills/in-progress"
+      },
+      "skills": [
+        "./writing-shape"
+      ],
+      "strict": false
+    },
+    {
+      "name": "git-guardrails",
+      "description": "git-guardrails-claude-code desde github.com/mattpocock/skills (siempre la última versión)",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mattpocock/skills.git",
+        "path": "skills/misc"
+      },
+      "skills": [
+        "./git-guardrails-claude-code"
+      ],
+      "strict": false
+    },
+    {
+      "name": "migrate-to-shoehorn",
+      "description": "migrate-to-shoehorn desde github.com/mattpocock/skills (siempre la última versión)",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mattpocock/skills.git",
+        "path": "skills/misc"
+      },
+      "skills": [
+        "./migrate-to-shoehorn"
+      ],
+      "strict": false
+    },
+    {
+      "name": "scaffold-exercises",
+      "description": "scaffold-exercises desde github.com/mattpocock/skills (siempre la última versión)",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mattpocock/skills.git",
+        "path": "skills/misc"
+      },
+      "skills": [
+        "./scaffold-exercises"
+      ],
+      "strict": false
+    },
+    {
+      "name": "setup-pre-commit",
+      "description": "setup-pre-commit desde github.com/mattpocock/skills (siempre la última versión)",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mattpocock/skills.git",
+        "path": "skills/misc"
+      },
+      "skills": [
+        "./setup-pre-commit"
+      ],
+      "strict": false
+    },
+    {
+      "name": "find-skills",
+      "description": "find-skills desde github.com/vercel-labs/skills (siempre la última versión)",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/vercel-labs/skills.git",
+        "path": "skills"
+      },
+      "skills": [
+        "./find-skills"
+      ],
+      "strict": false
+    },
+    {
+      "name": "design-mobile-apps",
+      "description": "design-mobile-apps desde github.com/designed-by-ai/skills (siempre la última versión)",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/designed-by-ai/skills.git",
+        "path": "skills"
+      },
+      "skills": [
+        "./design-mobile-apps"
+      ],
+      "strict": false
+    },
+    {
+      "name": "security-audit",
+      "description": "security-audit desde github.com/cloudflare/security-audit-skill (siempre la última versión)",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cloudflare/security-audit-skill.git",
+        "path": "skills"
+      },
+      "skills": [
+        "./security-audit"
+      ],
+      "strict": false
+    }
+  ]
+}
